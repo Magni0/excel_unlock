@@ -81,7 +81,7 @@ parser = ArgumentParser(
 parser.add_argument("-f", "--file", required=True, type=str, help="The file path (eg. path/to/file/filename.xlsx).")
 parser.add_argument("-o", "--output", const=None, required=False, type=str, help="Output name and path of the unlocked excel file.")
 parser.add_argument("-r", "--replace", action="store_true", help="Replaces the excel file instead of making a copy with _unlocked appended")
-parser.add_argument("-u", "--unhide", action="store_true", help="unhides all sheets and rows/columns")
+parser.add_argument("-u", "--unhide", action="store_true", help="Unhides all sheets and rows/columns")
 args = parser.parse_args()
 
 instance = UnlockExcel(args)
