@@ -1,2 +1,4 @@
 venv
 test*
+temp*
+workbook_example.xml
